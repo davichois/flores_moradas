@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f7f7f7;
+    background-color: #000000;
 }
 
 .container {
@@ -14,8 +14,17 @@ body {
 
 h1 {
     font-size: 36px;
-    color: #8B4513;
+    color: #ffffff;
     margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1;
+}
+
+h4 {
+    font-size: 36px;
+    color: #beff4f;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     z-index: 1;
 }
 
@@ -35,7 +44,7 @@ h1 {
 .petal {
     width: 45px;
     height: 90px;
-    background-color: #FFD700;
+    background-color: #a349a4;
     border-radius: 50%;
     position: absolute;
     top: 50%;
